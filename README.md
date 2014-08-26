@@ -46,7 +46,7 @@ M. Choudhury, F. Peruani, and B. Mitra, eds.), Birkhauser, Springer,
 The script "Example.m" contains the code to analyse two example datasets, taken
 from the paper, to demonstrate the main functionality of the method.
 
-(i)  Figure4.mat : Data for Figure 4
+(i)  Figure4.mat : Data for Figure 4  
 (ii) Figure6.mat : Data for Figure 6
 
 Further example data sets are available on request. 
@@ -84,18 +84,18 @@ How to use this code
 
 4. To create a FCM from spike train data, load the data into memory
 Example:
- 
-    % within the folder demo
-    load('Figure4.mat')
-    FCM = createFCM(spksExc)
-
+ ```
+     % within the folder demo  
+     load('Figure4.mat')  
+     FCM = createFCM(spksExc)
+```
 5. Run the stability analysis to find patterns in the spike train data.
 Example (continued):
- 
-    % within the folder demo
-    time = logspace(-2,2,120);
-    stability(FCM,time,'full','plot','directed','v','p')
-
+```
+     % within the folder demo  
+     time = logspace(-2,2,120);  
+     stability(FCM,time,'full','plot','directed','v','p')
+```
 For further details see also the Example.m script, as well as the manuscript.
 For further options of stability, type "help stability".
 
