@@ -82,19 +82,19 @@ How to use this code
 
 3. Make sure the folder Cell assembly folder is stored in your path variable.
 
-4. To create a FCM from spike train data, load the data into memory
-Example:
+4. To create a FCM from spike train data, load the data into memory  
+Example:  
  ```
-     % within the folder demo  
-     load('Figure4.mat')  
-     FCM = createFCM(spksExc)
+     % within the folder demo    
+     load('Figure4.mat')    
+     FCM = createFCM(spksExc)    
 ```
-5. Run the stability analysis to find patterns in the spike train data.
-Example (continued):
+5. Run the stability analysis to find patterns in the spike train data.  
+Example (continued):  
  ```
-     % within the folder demo  
-     time = logspace(-2,2,120);  
-     stability(FCM,time,'full','plot','directed','v','p')
+     % within the folder demo      
+     time = logspace(-2,2,120);      
+     stability(FCM,time,'full','plot','directed','v','p')  
  ```
  
 For further details see also the Example.m script, as well as the manuscript.
