@@ -91,11 +91,12 @@ Example:
 ```
 5. Run the stability analysis to find patterns in the spike train data.
 Example (continued):
-```
+ ```
      % within the folder demo  
      time = logspace(-2,2,120);  
      stability(FCM,time,'full','plot','directed','v','p')
-```
+ ```
+ 
 For further details see also the Example.m script, as well as the manuscript.
 For further options of stability, type "help stability".
 
