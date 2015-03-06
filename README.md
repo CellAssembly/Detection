@@ -24,7 +24,7 @@ The code implements the cell assembly detection method as introduced in
 
 "Revealing cell assemblies at multiple levels of granularity"
 Billeh, Y. N.; Schaub, M. T.; Anastassiou, C. A.; Barahona, M. & Koch, C.
-Journal of Neuroscience Methods (2014), in press 
+Journal of Neuroscience Methods (2014), 236, 92-106 
 
 The code consists of two parts. (i) A method to compute a functional 
 connectivity matrix (FCM) from given spike train data. (ii) The clustering of
